@@ -1,4 +1,4 @@
-// declare and define function, input and output machines
+/* // declare and define function, input and output machines
 // we can pass in arguments or parameters
 function test(mess){
     console.log(mess);
@@ -37,3 +37,13 @@ function calc(){
     console.log(sum);
 }
 calc();
+ */
+function BMI (a, b){
+    console.log(a / (b ** 2));
+    console.log(p * o);
+}
+let a = Number(prompt("Enter your weight, fatty"));
+let b = Number(prompt("Enter your height in inches, chuddy"));
+const p = 730;
+const n = divide(a / b**2);
+multiply(p,o);
