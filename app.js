@@ -38,12 +38,25 @@ function calc(){
 }
 calc();
  */
-function BMI (a, b){
-    console.log(a / (b ** 2));
-    console.log(p * o);
+function getBMI (a, b){;
+    console.log (730 * (a/(b * b)));
 }
 let a = Number(prompt("Enter your weight, fatty"));
 let b = Number(prompt("Enter your height in inches, chuddy"));
-const p = 730;
-const n = divide(a / b**2);
-multiply(p,o);
+let getBMI = (730 * (a/(b * b)));
+/* function check(x) {
+    if (x === "horse");
+} else{
+    console.log("that is false");
+// check:("horsey");
+}
+function complex(x,y){
+    if(x === "horse" && y === "horse") {
+        console.log("that is true");
+    } else{
+        console.log("that is false");
+    }
+}
+complex("horse", "horse"); */
+
+function 
