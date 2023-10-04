@@ -38,12 +38,14 @@ function calc(){
 }
 calc();
  */
-function getBMI (a, b){;
-    console.log (730 * (a/(b * b)));
+function getBMI (){
+    console.log (703 *(a/b**2));
 }
-let a = Number(prompt("Enter your weight, fatty"));
+let a = Number(prompt("Enter your weight in pounds, fatty"));
 let b = Number(prompt("Enter your height in inches, chuddy"));
-let getBMI = (730 * (a/(b * b)));
+getBMI(703 * (a/b**2));
+
+
 /* function check(x) {
     if (x === "horse");
 } else{
@@ -59,4 +61,3 @@ function complex(x,y){
 }
 complex("horse", "horse"); */
 
-function 
