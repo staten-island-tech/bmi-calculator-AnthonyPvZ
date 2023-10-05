@@ -38,13 +38,25 @@ function calc(){
 }
 calc();
  */
-function getBMI (){
-    console.log (703 *(a/b**2));
+function getBMI() {
+    console.log(703 * (a / b ** 2));
 }
 let a = Number(prompt("Enter your weight in pounds, fatty"));
 let b = Number(prompt("Enter your height in inches, chuddy"));
-getBMI(703 * (a/b**2));
-
+getBMI(703 * (a / b ** 2));
+function check(getBMI) {
+    if (getBMI <= 18.5); {
+        console.log("Lightweight");
+    } else if (getBMI > 18.5 && getBMI <= 29.9) {
+        console.log("Overweight");
+    } else (getBMI > 24.5 && getBMI <= 29.5); {
+        console.log("Obese");
+    } else (getBMI > 29.5 && getBMI <= 34.9); {
+        console.log("Very obese");
+    } else (getBMI > 34.9); {
+        console.log("Extremely obese");
+    }
+}
 
 /* function check(x) {
     if (x === "horse");
@@ -60,4 +72,22 @@ function complex(x,y){
     }
 }
 complex("horse", "horse"); */
-
+// /* const date = new Date();
+// let year = date.getFullYear();
+// const Dennis = {
+//     firstName: "Dennis",
+//     lastName: "Unknown",
+//     DOB: 1/1/2007,
+//     graduated: false,
+//     age: function () {
+//         // subtract his DOB year from current year
+//         return year - this.DOB
+//     },
+//     siblings: [],
+//     spouse: null,
+// }
+// const ChenZee = {
+//     firstName: "Chen-Zee",
+//     lastName: "Unknown",
+// }
+// console.log(Dennis.age) */
