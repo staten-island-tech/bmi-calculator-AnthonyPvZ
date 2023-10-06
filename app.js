@@ -39,24 +39,24 @@ function calc(){
 calc();
  */
 function getBMI() {
-    console.log(703 * (a / b ** 2));
+    console.log(a / ((b/100)**2));
 }
-let a = Number(prompt("Enter your weight in pounds, fatty"));
-let b = Number(prompt("Enter your height in inches, chuddy"));
-getBMI(703 * (a / b ** 2));
+let a = Number(prompt("Enter your weight in kilograms, fatty"));
+let b = Number(prompt("Enter your height in centimeters, chuddy"));
+getBMI(a / ((b/100)**2));
+
 function check(getBMI) {
-    if (getBMI <= 18.5); {
-        console.log("Lightweight");
-    } else if (getBMI > 18.5 && getBMI <= 29.9) {
-        console.log("Overweight");
-    } else (getBMI > 24.5 && getBMI <= 29.5); {
-        console.log("Obese");
-    } else (getBMI > 29.5 && getBMI <= 34.9); {
-        console.log("Very obese");
-    } else (getBMI > 34.9); {
-        console.log("Extremely obese");
+    if (getBMI <= 18.5) {
+        return "Lightweight";
+    } 
+    else if (getBMI > 18.5 && getBMI <= 29.9) {
+        return "Overweight";
+    } 
+    else if (getBMI > 24.5 && getBMI <= 29.5) {
+        return "Obese";
     }
 }
+
 
 /* function check(x) {
     if (x === "horse");
@@ -91,3 +91,16 @@ complex("horse", "horse"); */
 //     lastName: "Unknown",
 // }
 // console.log(Dennis.age) */
+
+// let nums = [1, 2, 3, 4, 5];
+// // access individual element from list/array starting from 0
+// console.log(nums[0]);
+
+// // for each loop
+// // () => arrow function
+// // arrow functions auto return
+// nums.forEach((el)=>console.log(el));
+// movies.forEach((movie))=>console.log((movie));
+//students.forEach((students)) => console.log(student.firstname));
+// const graduates = students.filter((student) => student.graduated !== true);
+// console.log(graduates);
