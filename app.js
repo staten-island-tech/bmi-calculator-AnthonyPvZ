@@ -1,3 +1,22 @@
+function getBMI() {
+    console.log(a / ((b/100)**2));
+}
+let a = Number(prompt("Enter your weight in kilograms, fatty"));
+let b = Number(prompt("Enter your height in centimeters, chuddy"));
+getBMI(a / ((b/100)**2));
+
+function check(getBMI) {
+    if (getBMI <= 18.5) {
+        console.log(Lightweight);
+    } 
+    else if (getBMI> 18.5 && getBMI <= 29.9) {
+        console.log(Normalweight);
+    } 
+    else if (getBMI > 30 && getBMI <= 34.9) {
+        console.log(Obese);
+    }
+}
+
 /* // declare and define function, input and output machines
 // we can pass in arguments or parameters
 function test(mess){
@@ -38,24 +57,7 @@ function calc(){
 }
 calc();
  */
-function getBMI() {
-    console.log(a / ((b/100)**2));
-}
-let a = Number(prompt("Enter your weight in kilograms, fatty"));
-let b = Number(prompt("Enter your height in centimeters, chuddy"));
-getBMI(a / ((b/100)**2));
 
-function check(getBMI) {
-    if (getBMI <= 18.5) {
-        return "Lightweight";
-    } 
-    else if (getBMI > 18.5 && getBMI <= 29.9) {
-        return "Overweight";
-    } 
-    else if (getBMI > 24.5 && getBMI <= 29.5) {
-        return "Obese";
-    }
-}
 
 
 /* function check(x) {
