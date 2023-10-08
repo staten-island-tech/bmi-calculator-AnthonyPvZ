@@ -1,21 +1,24 @@
-function getBMI() {
+function getBMI(a,b) {
     console.log(a / ((b/100)**2));
+    console.log(U)
+    return (a / ((b/100)**2))
 }
 let a = Number(prompt("Enter your weight in kilograms, fatty"));
 let b = Number(prompt("Enter your height in centimeters, chuddy"));
-getBMI(a / ((b/100)**2));
-
-function check(getBMI) {
-    if (getBMI <= 18.5) {
-        console.log(Lightweight);
+let U = prompt("Enter your name")
+UBMI = getBMI(a,b) 
+function check(x) { 
+    if (UBMI <= 18.5) {
+        console.log("Lightweight");
     } 
-    else if (getBMI> 18.5 && getBMI <= 29.9) {
-        console.log(Normalweight);
+    else if (UBMI> 18.5 && UBMI <= 29.9) {
+        console.log("Normalweight");
     } 
-    else if (getBMI > 30 && getBMI <= 34.9) {
-        console.log(Obese);
+    else if (UBMI > 30) {
+        console.log("Obese");
     }
 }
+check(UBMI)
 
 /* // declare and define function, input and output machines
 // we can pass in arguments or parameters
