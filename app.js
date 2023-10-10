@@ -1,19 +1,19 @@
-function getBMI(a,b) {
-    console.log(a / ((b/100)**2));
+function getBMI(a, b) {
+    console.log(a / ((b / 100) ** 2));
     console.log(U)
-    return (a / ((b/100)**2))
+    return (a / ((b / 100) ** 2))
 }
 let a = Number(prompt("Enter your weight in kilograms, fatty"));
 let b = Number(prompt("Enter your height in centimeters, chuddy"));
-let U = prompt("Enter your name")
-UBMI = getBMI(a,b) 
-function check(x) { 
+let U = prompt("Enter your name");
+UBMI = getBMI(a, b);
+function check(x) {
     if (UBMI <= 18.5) {
         console.log("Lightweight");
-    } 
-    else if (UBMI> 18.5 && UBMI <= 29.9) {
+    }
+    else if (UBMI > 18.5 && UBMI <= 29.9) {
         console.log("Normalweight");
-    } 
+    }
     else if (UBMI > 30) {
         console.log("Obese");
     }
